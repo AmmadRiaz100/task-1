@@ -1,72 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form
-    </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-</head>
-
-<body>
-    
-        <div class="main-container">
-
-            <div class="left">
-                <div class="left-main-form">
-                
-                <img class="logo" src="letter-a-with-squar-4736ld-removebg-preview.png">
-<h1>
-    Sign in to Account
-</h1>
-<div class="social-logo">
-    <img src="facebook.png">
-    <img src="linkedin.png">
-    <img src="google.png">
-</div>
-<p>or use your email account</p>
-
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label"></label>
-        <textarea class="form-control" placeholder="password" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <div class="check-wrap">
-        <div class="spacing">
-        <input type="checkbox">
-        <label for="Remember me">Remember me</label>
-    </div>
-        <a href="Forget Password?"> Forget Password?</a>
-      </div>
-      <div class="button"><button>Sign up</button></div>
-
-</div>
-
-            </div>
-
-            <div class="right">
-            </div>
-
-
-
-
-
-
+  <body>
+    <div class="main-container">
+      <div class="left">
+        <div class="left-main-form">
+          <img
+            class="logo"
+            src="letter-a-with-squar-4736ld-removebg-preview.png"
+          />
+          <h1>Sign in to Account</h1>
+          <div class="line"></div>
+          <div class="social-logo">
+            <div class="fb"><img src="facebook.png" /></div>
+            <div class="li"><img src="linkedin.png" /></div>
+            <div class="google"><img src="social.png" /></div>
+          </div>
+          <p>or use your email account</p>
+<div class="form">
+          <div class="mb-3" style="display: flex;
+          flex-direction: column; margin-left: 37px; gap: 13px;">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder=""
+            />
+          </div>
+          <div class="mb-3" style="display: flex;
+          flex-direction: column; margin-left: 37px; gap:15px"> 
+            <label for="exampleFormControlTextarea1" class="form-label">Password</label>
+            <textarea
+              class="form-control"
+              placeholder=""
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
         </div>
+          <div class="check-wrap">
+            <div class="spacing">
+              <input type="checkbox" style="margin-left: -5px;"/>
+              <label for="Remember me">Remember me</label>
+            </div>
+            <a href="Forget Password?"> Forgot Password?</a>
+          </div>
+          <div class="button"><button>Sign up</button></div>
+          <div class="footer">
+            <pre><h6>Privacy     .    Terms & condition</h6> </pre>
+          </div>
+        </div>
+      </div>
 
-
-
-
-
-    
-</body>
-
+      <div class="right">
+        <h1>Hello, Friend!</h1>
+        <div class="line-1"></div>
+        <div class="grapgh">
+          <p>Fill up personal information and start your journey with us.</p>
+        </div>
+        <div class="button-1"><button>sign up</button></div>
+      </div>
+    </div>
+  </body>
 </html>
